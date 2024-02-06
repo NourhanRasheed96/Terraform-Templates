@@ -28,8 +28,10 @@ __Make sure to add the access key and the secret key in a .tfvars file before ru
 1.	Make sure that you have Terraform installed on your machine.
 2.	Clone this repository.
 3.	In the root of the repository, create a file named terraform.tfvars and set the region, access_key, and secret_key variables to the appropriate values.
-4.	Run 'terraform init' to initialize the working directory.
-5.	Run **terraform plan** to see the changes that will be made.
-6.	Run **terraform apply** to create the resources.
-7.	Run **terraform destroy** to delete the resources when you are finished.
+4. **Configure AWS Credentials:** Update `terraform.tfvars` with your AWS `access_key` and `secret_key`.
+5. **Initialize Terraform:** Run `terraform init` to initialize your Terraform workspace.
+6. **Plan Deployment:** Execute `terraform plan` to review the infrastructure changes.
+7. **Apply Configuration:** Use `terraform apply` to apply the configuration and create the infrastructure.
+8. **Destroy Infrastructure:** When needed, `terraform destroy` can be used to remove all the resources.
+
 
