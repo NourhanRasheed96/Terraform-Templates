@@ -69,5 +69,3 @@ Contributions to this repository are welcome. If you have improvements or additi
 This template does not specify a license. Refer to the licensing information in the individual template directories.
 
 For any questions or issues, feel free to open an issue in the repository.
-```
-
