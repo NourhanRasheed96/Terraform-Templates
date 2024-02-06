@@ -60,10 +60,6 @@ You can customize the EC2 instance by modifying the variables in the `variables.
 - `instance_type`: The EC2 instance type (e.g., t2.micro).
 - `subnet_id`: The ID of the subnet where the EC2 instance will be launched.
 
-## Contributing
-
-Contributions to this repository are welcome. If you have improvements or additional features to suggest, please submit a pull request.
-
 ## License
 
 This template does not specify a license. Refer to the licensing information in the individual template directories.
