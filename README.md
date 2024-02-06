@@ -14,11 +14,11 @@ The scripts in this repo are Terraform configurations that create an AWS infrast
 
 The following variables need to be set before running the script:
 
-•	__region__: the region where the infrastructure will be created
+•	`__region__`: the region where the infrastructure will be created
 
-•	__access_key__: the AWS access key
+•	`__access_key__`: the AWS access key
 
-•	__secret_key__: the AWS secret key
+•	`__secret_key__`: the AWS secret key
 
 __Make sure to add the access key and the secret key in a .tfvars file before running any of the templates in this repository__
 
